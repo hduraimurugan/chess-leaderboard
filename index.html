@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Leaderboards</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container navitem" id="landing">
+            <div class="container mr-sm-2">
+                <h3><span><a href="#" class="text-decoration-none">Chess.com</a></span> Leaderboard</h3>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto p-3">
+                    <li class="nav-item mx-1 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded active" id="rapidd" href="#rapid">Rapid</a>
+                    </li>
+                    <li class="nav-item mx-1 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded " id="blitzz" href="#blitz">Blitz</a>
+                    </li>
+                    <li class="nav-item mx-1 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded " id="bullett" href="#bullet">Bullet</a>
+                    </li>
+                    <li class="nav-item mx-1 mx-lg-1 d-flex">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded " id="dailyy" href="#daily">Daily</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="topHead" id="rapid">
+        <p>Top #50 Players in Rapid Category</p>
+    </div>
+    <div id="leaderboards" class="card-container card-start"></div>
+
+    <div class="topHead" id="blitz">
+        <p>Top #50 Players in Blitz Category</p>
+    </div>
+    <div id="leaderboards2" class="card-container card-start"></div>
+
+    <div class="topHead" id="bullet">
+        <p>Top #50 Players in Bullet Category</p>
+    </div>
+    <div id="leaderboards3" class="card-container card-start"></div>
+
+    <div class="topHead" id="daily">
+        <p>Top #50 Players in Daily Category</p>
+    </div>
+    <div id="leaderboards4" class="card-container card-start"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
