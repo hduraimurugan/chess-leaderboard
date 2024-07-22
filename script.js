@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="card-content">
                         <h2>#${player.rank}</h2>
                         <h4>${displayName}</h4>
-                        <p>Score: ${player.score}</p>
+                        <p>Rating: ${player.score}</p>
                         <p>Wins: ${player.win_count}</p>
                         <p>Losses: ${player.loss_count}</p>
                         <p>Draws: ${player.draw_count}</p>
