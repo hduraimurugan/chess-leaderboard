@@ -110,14 +110,26 @@ h3 a:hover {
 }
 
 .card:hover {
-    transform: scale(1.02);
+    transform: scale(0.96);
     cursor: pointer;
-    text-align: right;
+    /* text-align: right; */
 
     .card-content h2 {
         width: 75px;
     }
+    .card-content p{
+        width: 100%;
+        text-align: right;
+    }
 }
+
+.card-content p{
+    background-color: rgba(37, 37, 37, 0);
+    width: 68%;
+    transition: width 0.7s ease;
+    text-align: right;
+}
+
 
 .card img {
     width: 100%;
