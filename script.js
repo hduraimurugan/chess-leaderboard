@@ -173,3 +173,10 @@ dailyy.addEventListener("click",()=>{
     bullett.classList.remove('active')
     dailyy.classList.add('active')
 })
+
+landingg.addEventListener("click",()=>{
+    rapidd.classList.remove('active')
+    blitzz.classList.remove('active')
+    bullett.classList.remove('active')
+    dailyy.classList.remove('active')
+})
