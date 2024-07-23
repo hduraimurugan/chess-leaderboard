@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 let displayName = playerName.name ? playerName.name : playerName.username;
                 card.innerHTML = `
                     <a href="${player.url}" id="rapid" class="text-decoration-none text-white">
-                    <img src="${player.avatar || 'default-avatar.png'}" alt="${player.name}">
-                    <div class="card-content">
+                    <img class="card-img-top" src="${player.avatar || 'default-avatar.png'}" alt="${player.name}">
+                    <div class="card-body card-content">
                         <h2>#${player.rank}</h2>
                         <h4>${displayName}</h4>
                         <p>Rating: ${player.score}</p>
@@ -53,8 +53,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 let displayName = playerName.name ? playerName.name : playerName.username;
                 card.innerHTML = `
                     <a href="${player.url}" id="blitz" class="text-decoration-none text-white">
-                    <img src="${player.avatar || 'default-avatar.png'}" alt="${player.name}">
-                    <div class="card-content">
+                    <img class="card-img-top" src="${player.avatar || 'default-avatar.png'}" alt="${player.name}">
+                    <div class="card-body card-content">
                         <h2>#${player.rank}</h2>
                         <h4>${displayName}</h4>
                         <p>Score: ${player.score}</p>
@@ -90,8 +90,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 let displayName = playerName.name ? playerName.name : playerName.username;
                 card.innerHTML = `
                     <a href="${player.url}" id="bullet" class="text-decoration-none text-white">
-                    <img src="${player.avatar || 'default-avatar.png'}" alt="${player.name}">
-                    <div class="card-content">
+                    <img class="card-img-top" src="${player.avatar || 'default-avatar.png'}" alt="${player.name}">
+                    <div class="card-body card-content">
                         <h2>#${player.rank}</h2>
                         <h4>${displayName}</h4>
                         <p>Score: ${player.score}</p>
@@ -127,8 +127,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 let displayName = playerName.name ? playerName.name : playerName.username;
                 card.innerHTML = `
                     <a href="${player.url}" id="daily" class="text-decoration-none text-white">
-                    <img src="${player.avatar || 'default-avatar.png'}" alt="${player.name}">
-                    <div class="card-content">
+                    <img class="card-img-top" src="${player.avatar || 'default-avatar.png'}" alt="${player.name}">
+                    <div class="card-body card-content">
                         <h2>#${player.rank}</h2>
                         <h4>${displayName}</h4>
                         <p>Score: ${player.score}</p>

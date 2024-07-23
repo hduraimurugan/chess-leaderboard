@@ -30,11 +30,6 @@
 #mainNav .navbar-nav li.nav-item a.nav-link {
     color: #fff;
 }
-
-/* .navbar-expand-lg {
-    display: flex ;
-    flex-basis: auto;
-} */
  
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -47,12 +42,17 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-image: url("https://images.wallpaperscraft.com/image/single/pawn_chess_transparent_1170976_1920x1200.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-}
 
+    background-image: url("https://images.wallpaperscraft.com/image/single/pawn_chess_transparent_1170976_1920x1200.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+     background-position: center;
+}
+body, html {
+    height: 100%;
+  }
 nav div div h3 {
     margin: 10px 10px;
     color: whitesmoke;
@@ -61,7 +61,7 @@ nav div div h3 {
 }
 
 nav div div h3 span a {
-
+    font-weight: 650;
     color: black;
     padding: 7px;
     border-radius: 7px;
@@ -75,7 +75,7 @@ h3 a:hover {
     color: black;
     font-weight: 700;
     padding-left: 25px;
-    transform: scale(1.02);
+    transform: scale(1.05);
 }
 
 .card-container {
