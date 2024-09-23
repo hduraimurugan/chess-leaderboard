@@ -3,6 +3,10 @@
     padding: 0%;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -83,7 +87,6 @@ h3 a:hover {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-
 }
 
 .card {
@@ -93,7 +96,7 @@ h3 a:hover {
     backdrop-filter: blur(14px);
     background-color: rgba(255, 255, 255, 0.103);
     overflow: hidden;
-    width: 300px;
+    width: 240px; /* Reduced width */
     text-align: center;
     margin-bottom: 20px;
     color: white;
@@ -142,34 +145,31 @@ h3 a:hover {
 }
 
 .card-content {
-    padding: 15px;
-
+    padding: 10px; /* Reduced padding */
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card-content h4 {
-    margin: 10px 0;
-
+    margin: 8px 0; /* Reduced margin */
 }
 
 .card-content h2 {
-    margin: 10px 0;
+    margin: 8px 0; /* Reduced margin */
     color: black;
     background-color: bisque;
-    width: 260px;
+    width: 100%; /* Reduced width */
     background: whitesmoke;
     font-weight: 650;
     transition: width 0.7s ease;
 }
 
 .card-content h2:hover {
-    width: 250px;
-
+    width: 170px; /* Adjusted hover width */
 }
 
 .card-content p {
     margin: 5px 0;
-
+    font-size: 14px; /* Adjusted font size */
 }
 
 .card-start {

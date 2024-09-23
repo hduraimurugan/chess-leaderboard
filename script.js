@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 };
                 let displayName = playerName.name ? playerName.name : playerName.username;
                 card.innerHTML = `
-                    <a href="${player.url}" id="rapid" class="text-decoration-none text-white">
+                    <a target='_blank' href="${player.url}" id="rapid" class="text-decoration-none text-white">
                     <img class="card-img-top" src="${player.avatar || 'default-avatar.png'}" alt="${player.name}">
                     <div class="card-body card-content">
                         <h2>#${player.rank}</h2>
