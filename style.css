@@ -186,3 +186,7 @@ h3 a:hover {
     padding-top: 180px;
     padding-bottom: 18px;
 }
+
+.topHead p{
+    font-size:25px;
+}
